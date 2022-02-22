@@ -17,6 +17,13 @@ Fora do objeto devera ser criado um array conm 5 numeros e para cada numero, cha
 
 let objetoQualquer = {
     arrowQualquer: (numero) => {
-        return numero / 2
+        return Math.sqrt(numero)
     }
+}
+
+
+let qualquerQualquer = [2,4,6,8,10]
+
+for(i = 0; i<qualquerQualquer.length; i++){
+    console.log(objetoQualquer.arrowQualquer(qualquerQualquer[i]))
 }
